@@ -13,6 +13,24 @@
   justify-content: start;
 }
 
+.minipadding{
+  padding:  0px 50px 50px 50px;
+}
+
+.rcorners1 {
+  border-radius: 15px;
+  background: #f4e700;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+}
+
+.corner {
+border-radius: 15px;
+}
+
+
+
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
@@ -417,28 +435,29 @@ h3 {
 }
 
 /* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_btn.scss */
+/* #FF1414; */
 .boxed-btn {
   background: #fff;
-  color: #FF1414;
+  color: #FFD166;
   display: inline-block;
   padding: 12px 44px;
   font-family: "Teko", sans-serif;
   font-size: 16px;
   font-weight: 600;
   border: 0;
-  border: 1px solid #FF1414;
+  border: 1px solid #FFD166;
   letter-spacing: 3px;
   text-align: center;
-  color: #FF1414 !important;
+  color: #FFD166 !important;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 17, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_btn.scss */
 .boxed-btn:hover {
-  background: #FF1414;
+  background: #FFD166;
   color: #fff !important;
-  border: 1px solid #FF1414;
+  border: 1px solid #FFD166;
 }
 
 /* line 22, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_btn.scss */
@@ -453,7 +472,7 @@ h3 {
 
 /* line 29, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_btn.scss */
 .boxed-btn3 {
-  background: #FF1414;
+  background: #FFD166;
   /* IE6-9 */
   color: #fff;
   display: inline-block;
@@ -481,8 +500,8 @@ h3 {
 .boxed-btn3:hover {
   background: transparent;
   /* IE6-9 */
-  color: #FF1414 !important;
-  border: 1px solid #FF1414;
+  color: #FFD166 !important;
+  border: 1px solid #FFD166;
 }
 
 /* line 53, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_btn.scss */
@@ -799,12 +818,12 @@ h3 {
 /* line 28, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #FF1414;
+  color: #FFD166;
 }
 
 /* line 32, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #FF1414;
+  color: #FFD166;
 }
 
 @media (max-width: 767px) {
@@ -1071,7 +1090,7 @@ h3 {
 
 /* line 101, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
-  background: #FF1414;
+  background: #FFD166;
   font-family: "Teko", sans-serif;
   padding: 12px 46px;
   font-size: 16px;
@@ -1093,7 +1112,7 @@ h3 {
 
 /* line 114, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a:hover {
-  background: #FF1414;
+  background: #FFD166;
 }
 
 /* line 121, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
@@ -1173,7 +1192,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li a::before {
   position: absolute;
   content: "";
-  background: #FF1414;
+  background: #FFD166;
   width: 100%;
   height: 3px;
   bottom: -33px;
@@ -1194,7 +1213,7 @@ h3 {
 
 /* line 182, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a.active {
-  color: #FF1414;
+  color: #FFD166;
 }
 
 /* line 184, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
@@ -1205,7 +1224,7 @@ h3 {
 
 /* line 189, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #FF1414;
+  color: #FFD166;
 }
 
 /* line 193, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
@@ -1335,7 +1354,7 @@ h3 {
 .header-area .main-header-area.sticky ul li a::before {
   position: absolute;
   content: "";
-  background: #FF1414;
+  background: #FFD166;
   width: 100%;
   height: 3px;
   bottom: -27px;
@@ -1370,7 +1389,7 @@ h3 {
 
 /* line 305, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .header-top_area .social_media_links a:hover {
-  color: #FF1414;
+  color: #FFD166;
 }
 
 /* line 311, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
@@ -1415,7 +1434,7 @@ h3 {
 
 /* line 335, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .header-top_area .short_contact_list ul li a i {
-  color: #FF1414;
+  color: #FFD166;
   margin-right: 7px;
 }
 
@@ -2162,7 +2181,7 @@ h3 {
   left: 0;
   top: 0;
   content: '';
-  background: #FF1414;
+  background: #FFD166;
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   -ms-transform: scale(0.8);
@@ -2432,7 +2451,7 @@ h3 {
 
 /* line 61, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_features.scss */
 .offer_area .offer_text h3 {
-  color: #FF1414;
+  color: #FFD166;
   font-size: 100px;
   font-weight: 400;
   font-family: "Teko", sans-serif;
@@ -2508,7 +2527,7 @@ h3 {
 .priscing_area .single_prising .prising_header span {
   position: relative;
   font-family: "Teko", sans-serif;
-  color: #FF1414;
+  color: #FFD166;
   font-weight: 400;
   font-size: 30px;
 }
@@ -2536,7 +2555,7 @@ h3 {
 
 /* line 57, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_pricings.scss */
 .priscing_area .single_prising:hover {
-  border: 1px solid #FF1414;
+  border: 1px solid #FFD166;
 }
 
 /* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_big_offer.scss */
@@ -2694,8 +2713,8 @@ h3 {
 
 /* line 61, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_team.scss */
 .team_area .single_team .team_thumb .team_hover .hover_inner ul li a:hover {
-  background: #FF1414;
-  border: 1px solid #FF1414;
+  background: #FFD166;
+  border: 1px solid #FFD166;
   color: #fff;
 }
 
@@ -3042,7 +3061,7 @@ h3 {
 .footer .footer_top .footer_widget .footer_title {
   font-size: 20px;
   font-weight: 400;
-  color: #FF1414;
+  color: #FFD166;
   text-transform: capitalize;
   margin-bottom: 45px;
   font-family: "Teko", sans-serif;
@@ -3087,7 +3106,7 @@ h3 {
 
 /* line 57, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p a:hover {
-  color: #FF1414;
+  color: #FFD166;
 }
 
 /* line 63, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
@@ -3107,8 +3126,8 @@ h3 {
 
 /* line 72, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text a.domain:hover {
-  color: #FF1414;
-  border-bottom: 1px solid #FF1414;
+  color: #FFD166;
+  border-bottom: 1px solid #FFD166;
 }
 
 /* line 78, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
@@ -3119,8 +3138,8 @@ h3 {
 
 /* line 82, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text.doanar a:hover {
-  color: #FF1414;
-  border-bottom: 1px solid #FF1414;
+  color: #FFD166;
+  border-bottom: 1px solid #FFD166;
 }
 
 /* line 86, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
@@ -3144,7 +3163,7 @@ h3 {
 
 /* line 102, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a:hover {
-  color: #FF1414;
+  color: #FFD166;
 }
 
 /* line 108, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
@@ -3188,7 +3207,7 @@ h3 {
   border: none;
   font-size: 14px;
   color: #fff;
-  background: #FF1414;
+  background: #FFD166;
   padding: 10px;
   padding: 0 22px;
   cursor: pointer;
@@ -3236,7 +3255,7 @@ h3 {
 
 /* line 173, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right a {
-  color: #FF1414;
+  color: #FFD166;
 }
 
 /* line 178, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
@@ -3272,7 +3291,7 @@ h3 {
 
 /* line 202, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
 .footer .socail_links ul li a:hover {
-  color: #FF1414 !important;
+  color: #FFD166 !important;
   border-color: transparent;
 }
 
@@ -3809,6 +3828,7 @@ h6 {
   border: 1px solid transparent;
   cursor: not-allowed;
 }
+
 
 /* line 347, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_elements.scss */
 .generic-blockquote {
@@ -4770,7 +4790,7 @@ h6 {
 
 /* line 14, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_blog.scss */
 .blog_area a:hover, .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #FF1414 0%, #FF1414 99%);
+  background: -webkit-linear-gradient(131deg, #FFD166 0%, #FFD166 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -5281,7 +5301,7 @@ h6 {
 
 /* line 544, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_blog.scss */
 .blog_details a:hover {
-  color: #FF1414;
+  color: #FFD166;
 }
 
 /* line 549, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_blog.scss */
@@ -5349,7 +5369,7 @@ h6 {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #FF1414;
+  background-color: #FFD166;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -5577,7 +5597,7 @@ h6 {
 
 /* line 842, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #FF1414;
+  background: #FFD166;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -5825,7 +5845,7 @@ h6 {
 
 /* line 1208, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #FF1414;
+  color: #FFD166;
 }
 
 /* line 1213, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_blog.scss */
@@ -6254,7 +6274,7 @@ h6 {
 
 /* line 72, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
-  color: #FF1414;
+  color: #FFD166;
   text-transform: uppercase;
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -6281,7 +6301,7 @@ h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #FF1414;
+  background-color: #FFD166;
   border-radius: 50%;
 }
 
