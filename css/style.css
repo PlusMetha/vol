@@ -2362,7 +2362,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_features.scss */
 .features_area {
-  background: #000000;
+  background: rgb(20,20,20);
   padding-bottom: 140px;
   padding-top: 170px;
 }
@@ -3018,7 +3018,7 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: #000000;
+  background: #181818;
   position: relative;
   z-index: 9;
 }
@@ -3179,7 +3179,7 @@ h3 {
   background: #F5FBFF;
   padding-left: 20px;
   font-size: 15px;
-  color: #000;
+  color: rgb(20, 20, 20);
   border: none;
   border: 1px solid #E8E8E8;
   border-radius: 30px;
