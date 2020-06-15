@@ -14,7 +14,7 @@
 }
 
 .minipadding{
-  padding:  0px 50px 50px 50px;
+  padding:  0px 25px 50px 50px;
 }
 
 .rcorners1 {
@@ -29,7 +29,9 @@
 border-radius: 15px;
 }
 
-
+.mypadding{
+  padding:  10px 10px 10px 10px;
+}
 
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
