@@ -1493,6 +1493,21 @@ h3 {
   background-image: url(../img/banner/banner5.png);
 }
 
+/* line 4, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
+.slider_bg_6 {
+  background-image: url(../img/banner/banner6.png);
+}
+
+/* line 4, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
+.slider_bg_7 {
+  background-image: url(../img/banner/banner7.png);
+}
+
+/* line 4, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
+.slider_bg_8 {
+  background-image: url(../img/banner/banner8.png);
+}
+
 /* line 7, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
 .slider_area {
   position: relative;
