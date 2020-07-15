@@ -33,6 +33,8 @@ border-radius: 15px;
   padding:  10px 10px 10px 10px;
 }
 
+
+
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
 /* Tablet desktop :768px. */
@@ -88,6 +90,8 @@ a:hover,
 .footer -menu li a:hover {
   text-decoration: none;
 }
+
+
 
 /* line 35, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/theme-default.scss */
 a,
@@ -241,11 +245,11 @@ h3 {
   position: absolute;
   content: "";
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b50808+0,000000+100&0.38+0,0.6+100 */
-  background: -moz-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(50, 50, 50, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
   /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(50, 50, 50, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, rgba(181, 8, 8, 0.38) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: radial-gradient(ellipse at center, rgba(50, 50, 50, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61b50808', endColorstr='#99000000',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
