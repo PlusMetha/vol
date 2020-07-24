@@ -32,6 +32,13 @@
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
     </style>
+
+    <script>
+    function writeText(txt) {
+      document.getElementById("desc").innerHTML = txt;
+    }
+    </script>
+
 </head>
 
 <body>
@@ -49,16 +56,16 @@
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="img/Volta.png" alt=""   width="200px">
+                                        <img src="img/Volta.png" alt=""   width="150px">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-lg-7">
+                            <div class="col-xl-8 col-lg-7">
                                 <div class="main-menu  d-none d-lg-block ">
                                     <nav>
                                         <ul id="navigation">
                                             <!-- <li  class="scroll-to-section"><a href="#Home">Home</a></li> -->
-                                            <li  class="scroll-to-section"><a href="index.html" class="menu-item">Home</a></li>
+                                            <li  class="scroll-to-section" ><a href="index.html" class="menu-item" >Home</a></li>
                                             <li  class="scroll-to-section"><a href="pricing.html" class="menu-item">Technology</a></li>
                                             <li  class="scroll-to-section"><a href="about.html" class="menu-item">About Us</a></li>
                                             <li  class="scroll-to-section"><a href="contact.html" class="menu-item">Contact</a></li>
@@ -221,14 +228,14 @@
                     </div>
                 </div>
             </div> -->
-            <div class="single_slider  d-flex align-items-center slider_bg_9  bg-black " >
+            <div class="single_slider  d-flex align-items-center slider_bg_9  bg-black "   >
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
                         <div class="col-xl-12">
                             <div class="slider_text text-center">
-                                <span  >Secure and Deliver is our heart</span>
+                                <span >Secure and Deliver is our heart</span>
                                 <h3></h3>
-                                <p>Secure and Deliver is our heart</p>
+                                <!-- <p>Secure and Deliver is our heart</p> -->
                                 <!-- <a href="#" class="boxed-btn3">Join Us</a> -->
                             </div>
                         </div>
@@ -269,10 +276,37 @@
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-73">
                         <h3 style="color:rgb( 244, 200, 1);"> Product </h3>
-                        <img src="img/product/AGV1.png" style="max-width:75%;height:auto;" alt="">
-                    </div>   
+                        <!-- <img src="img/product/AGV1.png" style="max-width:75%;height:auto;" alt=""> -->
+                    
+                    <iframe scrolling='no' frameborder='0' allowfullscreen='true' src='https://www.3dcontentcentral.com/external-site-embed.aspx?format=3D&catalogid=171&modelid=12477&width=250&height=250&edraw=true' name='PreviewFrame3D' id='PreviewFrame3D' width='400' height='355'></iframe><br/><a href='https://www.3dcontentcentral.com/download-model.aspx?catalogid=171&id=12477'></a>
+                
+                    <img src ="img/product/AGV1.png" width ="960" height ="540" alt="Planets" usemap="#planetmap" />
+
+                    <map name="planetmap">
+                    <area shape ="rect" coords ="310,385,437,465"
+                    onmouseover="writeText('part  2  ')"
+                    href ="  " target ="_blank" alt="Sun" />
+                    
+                    <area shape ="rect" coords ="600,365,800,443"
+                    onmouseover="writeText('part  3')"
+                    href ="  " target ="_blank" alt="Mercury" />
+                    
+                    <area shape ="rect" coords ="416,36,538,127"
+                    onmouseover="writeText('part  1')"
+                    href ="  " target ="_blank" alt="Venus" />
+
+                    <area shape ="rect" coords ="314,157,556,286"
+                    onmouseover="writeText('part  4')"
+                    href ="  " target ="_blank" alt="Sun" />
+
+                    </map> 
+                    
+                    <p id="desc">Mouse over the sun and the planets and see the different descriptions.</p>
+                    
+                
+                </div>  
                 </div>
-                <div class="col-xl-4">
+                <!-- <div class="col-xl-4">
                     <div class="card" style=" margin-left: 10%; width:80%">
                         <img src="img/product/part1.png" alt="Avatar" style="width:100%">
                         <div class="container">
@@ -298,7 +332,7 @@
                           <p>Architect & Engineer</p>
                         </div>
                       </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -319,7 +353,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single_feature text-center mb-73">
                         <div class="icon">
-                            <img height="100px" src="img/svg_icon/1.svg" alt="">
+                            <img height="100px" src="img/svg_icon/1.png" alt="">
                         </div>
                         <h4 style="font-family: 'Lato', sans-serif;" >Deep Learning</h4>
                         <p>Used to distinguish faces</p>
@@ -328,7 +362,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single_feature text-center">
                         <div class="icon">
-                            <img  height="100px" src="img/svg_icon/2.svg" alt="">
+                            <img  height="100px" src="img/svg_icon/2.png" alt="">
 
                         </div>
                         <h4 style="font-family: 'Lato', sans-serif;" >Open Cv</h4>
@@ -338,7 +372,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single_feature text-center">
                         <div class="icon">
-                            <img  height="100px" src="img/svg_icon/3.svg" alt="">
+                            <img  height="100px" src="img/svg_icon/3.png" alt="">
                         </div>
                         <h4 style="font-family: 'Lato', sans-serif; " >Image processing</h4>
                         <p>To operations on an image</p>
@@ -347,7 +381,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="single_feature text-center">
                         <div class="icon">
-                            <img  height="100px" src="img/svg_icon/4.svg" alt="">
+                            <img  height="100px" src="img/svg_icon/4.png" alt="">
                         </div>
                         <h4 style="font-family: 'Lato', sans-serif;" >Raspberry pi / Nvidia jetson nano</h4>
                         <p>Used in processing and control overall parts</p>
@@ -371,7 +405,12 @@
                                         This Summer</h4>
                                 <h3>50% Off</h3> -->
                                 
-                                <p>For more Information<br></p>
+                                <div class="col-xl-12">
+                                    <div class="section_title text-center mb-73">
+                                        <h3>.....</h3>
+                                        <p>There are many variations of passages of lorem Ipsum available, but the majority <br> have suffered alteration.</p>
+                                    </div>
+                                </div>
                                
                                 <a href="contact.html" class="boxed-btn3">Contact US</a>
                             </div>
