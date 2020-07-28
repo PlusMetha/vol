@@ -270,6 +270,20 @@
     </div> -->
 
     <!--/ catagory_area  -->
+
+    <script type="text/javascript">
+        function showIt(imgsrc)
+        {
+        document.getElementById('imageshow').src=img/svg_icon/2.png;
+        }
+        
+        function hideIt()
+        {
+        document.getElementById('imageshow').src="default.jpg";
+        }
+        </script>
+
+        
     <div class="features_area">
         <div class="container">
             <div class="row">
@@ -283,8 +297,9 @@
                     <img src ="img/product/AGV1.png" width ="960" height ="540" alt="Planets" usemap="#planetmap" />
 
                     <map name="planetmap">
-                    <area shape ="rect" coords ="310,385,437,465"
-                    onmouseover="writeText('part  2  ')"
+
+                    <area  title="This is my image's tooltip message for area 1!" shape ="rect" coords ="310,385,437,465"
+                    onmouseover="writeText('part  2'  )"
                     href ="  " target ="_blank" alt="Sun" />
                     
                     <area shape ="rect" coords ="600,365,800,443"
@@ -305,6 +320,8 @@
                     
                 
                 </div>  
+
+
                 </div>
                 <!-- <div class="col-xl-4">
                     <div class="card" style=" margin-left: 10%; width:80%">
