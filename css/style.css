@@ -242,6 +242,7 @@ h3 {
 .overlay {
   position: relative;
   z-index: 0;
+  background: rgba(0, 0, 0, 0.8);
 }
 
 /* line 143, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/theme-default.scss */
@@ -274,7 +275,7 @@ h3 {
 .overlay2::before {
   position: absolute;
   content: "";
-  background-color: #1614149d;
+  background-color: #030303;
   top: 0;
   left: 0;
   width: 100%;
@@ -1320,9 +1321,9 @@ h3 {
   transform: translateY(70px);
   transition: transform 500ms ease, background 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
-  box-shadow: 0px 3px 16px 0px #242423;
+  box-shadow: 0px 3px 2px 0px #101010;
   padding: 5px 140px 5px 180px;
-  background:  #151515;
+  background:  #030303;
 }
 
 @media (max-width: 767px) {
@@ -1501,7 +1502,7 @@ h3 {
 
 /* line 4, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_slider.scss */
 .slider_bg_4 {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0) 10%, transparent 50%),
+  background-image: linear-gradient(to top, rgba(03, 03, 03, 1), rgba(255, 255, 255, 0) 10%, transparent 50%),
    url(../img/banner/banner4.png);
 }
 
@@ -2417,7 +2418,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_features.scss */
 .features_area {
-  background: rgb(20,20,20);
+  background: #030303;
   padding-bottom: 140px;
   padding-top: 50px;
 }
@@ -2559,7 +2560,7 @@ h3 {
 
 /* line 13, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_pricings.scss */
 .priscing_area .single_prising {
-  background: #1A1A1A;
+  background: #030303;
   padding: 40px 0;
   border: 1px solid transparent;
   -webkit-transition: 0.3s;
@@ -2664,7 +2665,7 @@ h3 {
 /* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_team.scss */
 .team_bg_1 {
   /* background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0) 10%, transparent 50%), url(../img/banner/trainer_bg.png); */
-  background-image: linear-gradient(to bottom,rgba(0, 0, 0, 1),8%,rgba(0, 0, 0, 0),95%,rgb(0, 0, 0,1),100%, transparent 50%), url(../img/banner/trainer_bg.png);
+  background-image: linear-gradient(to bottom,rgba(03, 03, 03, 1),8%,rgba(0, 0, 0, 0),95%,rgb(0, 0, 0,1),100%, transparent 50%), url(../img/banner/trainer_bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -2711,7 +2712,8 @@ h3 {
 .overlay3::before {
   position: absolute;
   content: "";
-  background-color: #242423;
+  background-color: #030303;
+  
   top: 0;
   left: 0;
   width: 100%;
@@ -2835,12 +2837,15 @@ h3 {
 
 /* line 1, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_bradcam.scss */
 .bradcam_bg_1 {
-  background-image: url(../img/banner/bradcam_1.png);
+  background-image: linear-gradient(to top, rgba(03, 03, 03, 1), rgba(255, 255, 255, 0) 10%, transparent 50%),
+  url(../img/banner/bradcam_1.png);
 }
 
 /* line 4, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_bradcam.scss */
 .bradcam_bg_2 {
-  background-image: url(../img/banner/bradcam_2.png);
+  background-image:  linear-gradient(to top, rgba(03, 03, 03, 1), rgba(255, 255, 255, 0) 10%, transparent 50%),
+   url(../img/banner/bradcam_2.png);
+  
 }
 
 /* line 7, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_bradcam.scss */
@@ -2862,7 +2867,7 @@ h3 {
 /* line 4, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_bradcam.scss */
 .bradcam_bg_5 {
   background-image:
-  linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0) 10%, transparent 50%),
+  linear-gradient(to top, rgba(03, 03, 03, 1), rgba(255, 255, 255, 0) 10%, transparent 50%),
   url(../img/banner/bradcam_5.png);
   width: 100%;
   /* height: 400px; */
@@ -3126,7 +3131,7 @@ h3 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: #181818;
+  background: #030303;
   position: relative;
   z-index: 9;
 }

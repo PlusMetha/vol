@@ -281,7 +281,24 @@
         {
         document.getElementById('imageshow').src="default.jpg";
         }
-        </script>
+
+
+    </script>
+    <script>
+
+        function changePic1(){ 
+            document.getElementById("myImg").src = "img/product/part1.jpg";
+        }
+        function changePic2(){
+            document.getElementById("myImg").src = "img/product/part2.jpg";
+        }
+        function changePic3(){
+            document.getElementById("myImg").src = "img/product/part3.jpg";
+        }
+        function changePic4(){
+            document.getElementById("myImg").src = "img/product/part4.jpg";
+        }
+    </script>
 
         
     <div class="features_area">
@@ -292,48 +309,47 @@
                         <h3 style="color:rgb( 244, 200, 1);"> Product </h3>
                         <!-- <img src="img/product/AGV1.png" style="max-width:75%;height:auto;" alt=""> -->
                     
-                        <div class='modelo-wrapper'> <div style="width: 100%; padding-bottom: 56.25%; position: relative"> <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"> <iframe src="https://app.modelo.io/embedded/fV6c_XWqrE?viewport=true&autoplay=true&autoRotate=true&hideTools=true" style="width:100%;height:100%;" frameborder="0" mozallowfullscreen webkitallowfullscreen allowfullscreen ></iframe> </div> </div> </div>
+                        <!-- <div class='modelo-wrapper'> <div style="width: 100%; padding-bottom: 56.25%; position: relative"> <div style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"> <iframe src="https://app.modelo.io/embedded/fV6c_XWqrE?viewport=true&autoplay=true&autoRotate=true&hideTools=true" style="width:100%;height:100%;" frameborder="0" mozallowfullscreen webkitallowfullscreen allowfullscreen ></iframe> </div> </div> </div> -->
                 
                     <img src ="img/product/AGV1.png" width ="960" height ="540" alt="Planets" usemap="#planetmap" />
 
                     <map name="planetmap">
 
                     <area  title="This is my image's tooltip message for area 1!" shape ="rect" coords ="310,385,437,465"
-                    onmouseover="writeText('part  2'  )"
+                    onmouseover="changePic1()"
                     href ="  " target ="_blank" alt="Sun" />
                     
                     <area shape ="rect" coords ="600,365,800,443"
-                    onmouseover="writeText('part  3')"
+                    onmouseover="changePic2()"
                     href ="  " target ="_blank" alt="Mercury" />
                     
                     <area shape ="rect" coords ="416,36,538,127"
-                    onmouseover="writeText('part  1')"
+                    onmouseover="changePic3()"
                     href ="  " target ="_blank" alt="Venus" />
 
                     <area shape ="rect" coords ="314,157,556,286"
-                    onmouseover="writeText('part  4')"
+                    onmouseover="changePic4()"
                     href ="  " target ="_blank" alt="Sun" />
 
                     </map> 
                     
                     <p id="desc">Mouse over the sun and the planets and see the different descriptions.</p>
-                    
+                    <img id="myImg" src="img/product/AGV1.png" width="200" height="200">
                 
-                </div>  
+                     </div> 
+                 </div>
 
-
-                </div>
-                <!-- <div class="col-xl-4">
-                    <div class="card" style=" margin-left: 10%; width:80%">
+                <div class="col-xl-3">
+                    <div class="card" style=" margin-left: 30%; width:30%">
                         <img src="img/product/part1.png" alt="Avatar" style="width:100%">
                         <div class="container">
-                          <h4><b>John Doe</b></h4>
-                          <p>Architect & Engineer</p>
+                          <h4 style=" font-size: 100%"><b>John Doe</b></h4>
+                          <p style="font-size: 100%"> Architect & Engineer</p>
                         </div>
                       </div>
                 </div>
-                <div class="col-xl-4">
-                    <div class="card" style=" margin-left: 10%; width:80%">
+                <div class="col-xl-3">
+                    <div class="card" style=" margin-left: 30%; width:80%">
                         <img src="img/product/part2.png" alt="Avatar" style="width:100%">
                         <div class="container">
                           <h4><b>John Doe</b></h4>
@@ -341,15 +357,24 @@
                         </div>
                       </div>
                 </div>
-                <div class="col-xl-4">
-                    <div class="card" style=" margin-left: 10%; width:80%">
+                <div class="col-xl-3">
+                    <div class="card" style=" margin-left: 30%; width:30%">
                         <img src="img/product/part3.png" alt="Avatar" style="width:100%">
                         <div class="container">
                           <h4><b>John Doe</b></h4>
                           <p>Architect & Engineer</p>
                         </div>
                       </div>
-                </div> -->
+                </div>
+                <div class="col-xl-3">
+                    <div class="card" style=" margin-left: 30%; width:30%">
+                        <img src="img/product/part3.png" alt="Avatar" style="width:100%">
+                        <div class="container">
+                          <h4><b>John Doe</b></h4>
+                          <p>Architect & Engineer</p>
+                        </div>
+                      </div>
+                </div>
             </div>
         </div>
     </div>
