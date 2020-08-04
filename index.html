@@ -298,6 +298,23 @@
         function changePic4(){
             document.getElementById("myImg").src = "img/product/part4.jpg";
         }
+
+        function changeA(){
+            var size = document.getElementById('AA');
+            size.style.transform = "scale(1.5)";
+            size.style.zIndex = "1";
+            document.getElementById("p1").innerHTML = "New text!";
+
+        }
+        function changeAback(){
+            var size = document.getElementById('AA');
+            size.style.transform = "scale(1)";
+            size.style.zIndex = "0.5";
+            document.getElementById("p1").innerHTML = "";
+
+        }
+
+
     </script>
 
     <div class="features_area">
@@ -315,7 +332,7 @@
                     <map name="planetmap">
 
                     <area  title="This is my image's tooltip message for area 1!" shape ="rect" coords ="310,385,437,465"
-                    onmouseover="changePic1()"
+                    onmouseover="changeA()"  onmouseout="changeAback()"
                     href ="  " target ="_blank" alt="Sun" />
                     
                     <area shape ="rect" coords ="600,365,800,443"
@@ -333,11 +350,17 @@
                     </map> 
                     
                     <p id="desc">Mouse over the part and see the different descriptions.</p>
-                    <img id="myImg" src="img/product/AGV1.png" width="200" height="200">
                     
-                    <div class="carousel-tile" style="background: #46B1C9;"></div>
+                    <!-- <img id="myImg" src="img/product/AGV1.png" width="200" height="200"> -->
+                   
+                    <div class="carousel-row" >
 
+                     <div class="carousel-tile item" id="AA"><img id=" " src="img/product/part1.jpg" width="100%"><p id="p1" class="bottom-left" style="position: absolute;  " > </p> </div>
+                     <div class="carousel-tile item" id="BB"><img id=" " src="img/product/part2.jpg" width="100%"></div>
+                     <div class="carousel-tile item" id="CC"><img id=" " src="img/product/part3.jpg" width="100%"></div>
+                     <div class="carousel-tile item" id="DD"><img id="myImg" src="img/product/part4.jpg" width="100%"></div>
 
+                    </div>
 
 
 
