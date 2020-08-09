@@ -535,6 +535,34 @@ h3 {
   letter-spacing: 2px;
 }
 
+/* line 29, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_btn.scss */
+.boxed-btn33 {
+  box-shadow: 2px 2px #999999;
+  background: #f0c402;
+  /* IE6-9 */
+  color: #fff;
+  display: inline-block;
+  padding: 8px 49px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  font-weight: 500;
+  border: 0;
+  border: 1px solid transparent;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 3px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
 /* line 48, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
   background: transparent;
@@ -2886,6 +2914,8 @@ h3 {
   background-image: url(../img/banner/details.png);
 }
 
+
+
 .tinted-image {
 
   height: 200px;
@@ -2897,6 +2927,17 @@ h3 {
   background-image:
   linear-gradient(to top, rgba(03, 03, 03, 1), rgba(255, 255, 255, 0) 10%, transparent 50%),
   url(../img/banner/bradcam_5.jpg);
+  width: 100%;
+  /* height: 400px; */
+  background-size: cover;
+  color: white;
+  /* padding: 20px; */
+}
+
+.bradcam_bg_6 {
+  background-image:
+  linear-gradient(to top, rgba(03, 03, 03, 1), rgba(255, 255, 255, 0) 10%, transparent 50%),
+  url(../img/banner/bradcam_6.jpg);
   width: 100%;
   /* height: 400px; */
   background-size: cover;
