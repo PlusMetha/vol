@@ -56,7 +56,7 @@
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
                                     <a href="index.html">
-                                        <img src="img/Volta.png" alt=""   width="200px">
+                                        <img src="img/Volta.png" alt=""   width="150px">
                                     </a>
                                 </div>
                             </div>
@@ -65,18 +65,18 @@
                                     <nav>
                                         <ul id="navigation" >
                                             <!-- <li  class="scroll-to-section"><a href="#Home">Home</a></li> -->
-                                            <li  class="scroll-to-section" ><a href="index.html" class="menu-item" style="font-size: 23px;">Home</a></li>
-                                            <li  class="scroll-to-section"><a href="pricing.html" class="menu-item"  style="font-size: 23px;">Technology</a></li>
+                                            <li  class="scroll-to-section" ><a href="index.html" class="menu-item" >Home</a></li>
+                                            <li  class="scroll-to-section"><a href="pricing.html" class="menu-item"  >Technology</a></li>
                                             <!-- <li  class="scroll-to-section"><a href="about.html" class="menu-item">About Us</a></li> -->
 
-                                            <li><a href="#"  style="font-size: 23px;">About<i class="ti-angle-down"></i></a>
+                                            <li><a href="#"  >About<i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
-                                                    <li><a href="about.html"  style="font-size: 23px;">About</a></li>
-                                                    <li><a href="blog.html"  style="font-size: 23px;">Blog</a></li>
+                                                    <li><a href="about.html"   >About</a></li>
+                                                    <li><a href="blog.html"   >Blog</a></li>
                                                 </ul>
                                             </li>
-                                            <li  class="scroll-to-section"><a href="contact.html" class="menu-item"  style="font-size: 23px;">Contact</a></li>
-                                            <li  class="scroll-to-section"><a href="gallery.html" class="menu-item"  style="font-size: 23px;">Careers</a></li>
+                                            <li  class="scroll-to-section"><a href="contact.html" class="menu-item"  >Contact</a></li>
+                                            <li  class="scroll-to-section"><a href="gallery.html" class="menu-item"  >Careers</a></li>
 
                                         </ul>
                                     </nav>
@@ -276,25 +276,64 @@
         function changePic3(){
             document.getElementById("myImg").src = "img/product/part3.jpg";
         }
-        function changePic4(){
-            document.getElementById("myImg").src = "img/product/part4.jpg";
-        }
+
 
         function changeA(){
             var size = document.getElementById('AA');
             size.style.transform = "scale(2.25)";
             size.style.zIndex = "1";
-            document.getElementById("p1").innerHTML = " Image processing เข้ามาช่วยในการยกระดับการรับษาควาฟมปลอดภัย การใช้กล้องจับภาพแล้วส่งการแสดงผลไปที่คนรักษาความปลอดภัยเมื่อเกิดสิ่งผิดปกติหรือบุคคลภายนอกจากคนในพื้นที่";
-
+            size.style.height = "200px";
+            size.style.position = "absolute";
+            document.getElementById("p1").innerHTML = " <br> Image processing เข้ามาช่วยในการยกระดับการรับษาความปลอดภัย การใช้กล้องจับภาพแล้วส่งการแสดงผลไปที่คนรักษาความปลอดภัยเมื่อเกิดสิ่งผิดปกติหรือบุคคลภายนอกจากคนในพื้นที่";
+            
         }
         function changeAback(){
             var size = document.getElementById('AA');
             size.style.transform = "scale(1)";
-            size.style.zIndex = "0.5";
+            size.style.zIndex = "0 ";
+            size.style.height = "140px";
+            size.style.position = "relative";
             document.getElementById("p1").innerHTML = "";
 
         }
 
+        function changeB(){
+            var size = document.getElementById('BB');
+            size.style.transform = "scale(2.25)";
+            size.style.zIndex = "1";
+            size.style.height = "200px";
+            size.style.position = "absolute";
+            document.getElementById("p2").innerHTML = " HEllO  HEllO  HEllO  HEllO";
+            
+        }
+        function changeBback(){
+            var size = document.getElementById('BB');
+            size.style.transform = "scale(1)";
+            size.style.zIndex = "0 ";
+            size.style.height = "140px";
+            size.style.position = "relative";
+            document.getElementById("p2").innerHTML = " ";
+
+        }
+        
+        function changeC(){
+            var size = document.getElementById('CC');
+            size.style.transform = "scale(2.25)";
+            size.style.zIndex = "1";
+            size.style.height = "200px";
+            size.style.position = "absolute";
+            document.getElementById("p3").innerHTML = " HEllO  HEllO   HEllO ";
+            
+        }
+        function changeCback(){
+            var size = document.getElementById('CC');
+            size.style.transform = "scale(1)";
+            size.style.zIndex = "0 ";
+            size.style.height = "140px";
+            size.style.position = "relative";
+            document.getElementById("p3").innerHTML = " ";
+
+        }
 
     </script>
 
@@ -310,41 +349,40 @@
                 
                         <map name="planetmap">
     
-                            <area  title="This is my image's tooltip message for area 1!" coords="389,166,137" shape="circle"
+                            <area  title="Image processing" coords="100,250,100" shape="circle"
                             onmouseover="changeA()"  onmouseout="changeAback()"
                             href ="  " target ="_blank" alt="Sun" />
                             
-                            <area coords="239,441,145" shape="circle"
-                            onmouseover="changePic2()"
+                            <area coords="200,100,100" shape="circle"
+                            onmouseover="changeB()"  onmouseout="changeBback()"
                             href ="  " target ="_blank" alt="Mercury" />
                             
-                            <area coords="203,845,153" shape="circle"
-                            onmouseover="changePic3()"
+                            <area coords="400,400,150" shape="circle"
+                            onmouseover="changeC()"  onmouseout="changeCback()"
                             href ="  " target ="_blank" alt="Venus" />
-        
-                            <area coords="918,807,149" shape="circle"
-                            onmouseover="changePic4()"
-                            href ="  " target ="_blank" alt="Sun" />
-        
+                            
                         </map> 
                     </div>
                     
                     <div class="item2">
-                        <div class="item">
-                            <div class="carousel-tile item" id="AA"><img id=" " src="img/product/part1.jpg" width="100%"><p id="p1" class="bottom-left" style="position: absolute; font-size: small;  color: black; "  > </p> </div>
-                                 </div>
+                        <div class="item" id="AA">
+                            <div class="carousel-tile item"  ><img id=" " src="img/product/part4.jpg" width="100%"></div>
+                            <p id="p1" class="onpic" style="position: absolute; font-size:7px; line-height: 200%;  "  > </p> 
+                        </div>
                     </div>
                    
                     <div class="item4">
                         <div class="item">
-                            <div class="carousel-tile item" id="BB"><img id=" " src="img/product/part2.jpg" width="100%"></div>
-                                 </div>
+                            <div class="carousel-tile item" id="BB"><img id=" " src="img/product/part1.jpg" width="100%"></div>
+                            <p id="p2" class="onpic" style="position: absolute; font-size:7px; line-height: 200%; "  > </p>
+                        </div>
                     </div>
                   
                     <div class="item6">
                         <div class="item">
                             <div class="carousel-tile item" id="CC"><img id=" " src="img/product/part3.jpg" width="100%"></div>
-                                 </div>
+                            <p id="p3" class="onpic" style="position: absolute; font-size:7px; line-height: 200%;  "  > </p>
+                        </div>
                     </div>
                   
                   </div>
@@ -971,12 +1009,17 @@
                                     <img src="img/Volta.png" width="120px" alt="">
                                 </a>
                             </div>
-                            <p>Send us your query anytime!<br>
+                            <!-- <ul>
+                                <li><p>Send us your query anytime!</p></li>
+                                <li><a href="tel:+66819997296">+66 8199 97296</a></li>
+                                <li><a href="mailto:volta.global.company@gmail.com">volta.global.company@gmail.com</a></li>
+                            </ul> -->
+                                <p>Send us your query anytime!<br>
                                 <a href="tel:+66819997296">+66 8199 97296</a> <br>
-                                <a href="mailto:volta.global.company@gmail.com">volta.global.company@gmail.com</a>
-                                <a href="https://www.facebook.com/Voltaglobalcompany">
-                                    <i class="ti-facebook"></i>
-                                </a>
+                                <a href="mailto:volta.global.company@gmail.com">volta.global.company@gmail.com</a> <br>
+                                <a href="tel:+66819997296"> <i class="ti-tablet"></i></a>  	&nbsp;
+                                <a href="mailto:volta.global.company@gmail.com" > <i class="ti-email"></i></a>  	&nbsp;
+                                <a href="https://www.facebook.com/Voltaglobalcompany"> <i class="ti-facebook"></i></a> <br>
                             </p>
                             <p>
 
@@ -1021,6 +1064,7 @@
                                 Useful Links
                             </h3>
                             <ul class="links">
+                                <br>
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="pricing.html">Technology</a></li>
                                 <li><a href="about.html">About</a></li>
@@ -1035,14 +1079,23 @@
                     <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="footer_widget">
                             <h3 class="footer_title">
-                                Something
+                                Vision
                             </h3>
                             <!-- <form action="#" class="newsletter_form">
                                 <input type="text" placeholder="Enter your mail">
                                 <button type="submit">Subscribe</button>
                             </form> -->
-                            <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems
-                                luckily.</p>
+                            <p class="newsletter_text">WE CREATE THE FUTURE BEGINS NOW</p>
+                        </div>
+                        <div class="footer_widget">
+                            <h3 class="footer_title" style="margin-top: 20px;">
+                                Mission
+                            </h3>
+                            <!-- <form action="#" class="newsletter_form">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit">Subscribe</button>
+                            </form> -->
+                            <p class="newsletter_text">SECURE AND DELIVER IS OUR HEART</p>
                         </div>
                     </div>
                 </div>
@@ -1057,6 +1110,7 @@
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 <!-- Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved  
                         </p>
                     </div>
                 </div>

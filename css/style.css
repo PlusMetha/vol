@@ -35,6 +35,7 @@
   height: 140px;
   background-color: #333533;
   margin: 0px;
+  
 }
 
 .carousel-row{
@@ -44,6 +45,9 @@
 }
 
 .item {
+  width: 250px;
+  height: 140px;
+  background-color: #333533;
   position: relative;
   display: block;
   flex: 1 1 0px;
@@ -100,7 +104,12 @@ border-radius: 0px;
   padding:  10px 10px 10px 10px;
 }
 
-
+.onpic{
+font-family: 'Ubuntu', sans-serif;
+font-weight: lighter;
+font-size: small;
+color: white;
+}
 
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
@@ -185,17 +194,17 @@ h6 a {
 
 /* line 52, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/theme-default.scss */
 a {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* line 55, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/theme-default.scss */
 input::placeholder {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* line 58, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/theme-default.scss */
 textarea::placeholder {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* line 61, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/theme-default.scss */
@@ -1199,7 +1208,7 @@ h3 {
 /* line 101, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn a {
   background: #F0C402;
-  font-family: "Teko", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   padding: 12px 46px;
   font-size: 16px;
   font-weight: 600;
@@ -2602,7 +2611,7 @@ h3 {
   color: #f0c402;
   font-size: 100px;
   font-weight: 400;
-  font-family: "Teko", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   line-height: 1;
   margin-top: 24px;
   margin-bottom: 10px;
@@ -2678,7 +2687,7 @@ h3 {
 /* line 27, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_pricings.scss */
 .priscing_area .single_prising .prising_header span {
   position: relative;
-  font-family: "Teko", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #f0c402;
   font-weight: 400;
   font-size: 30px;
@@ -2686,7 +2695,7 @@ h3 {
 
 /* line 35, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_pricings.scss */
 .priscing_area .single_prising .pricing_body {
-  border-top: 1px solid #313131;
+  /* border-top: 1px solid #313131; */
   padding-top: 27px;
   padding-bottom: 32px;
 }
@@ -2905,7 +2914,8 @@ h3 {
 /* line 74, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_team.scss */
 .team_area .single_team .team_title h3 {
   font-size: 36px;
-  font-family: "Teko", sans-serif;
+
+  font-family: 'Ubuntu', sans-serif;
   color: #FFFFFF;
   font-weight: 500;
   margin-bottom: 5px;
@@ -3282,8 +3292,8 @@ h3 {
   font-weight: 400;
   color: #FFD166;
   text-transform: capitalize;
-  margin-bottom: 45px;
-  font-family: "Teko", sans-serif;
+  margin-bottom: 10px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -3298,8 +3308,8 @@ h3 {
   font-size: 22px;
   font-weight: 400;
   color: #fff;
-  text-transform: capitalize;
-  margin-bottom: 40px;
+
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -3377,7 +3387,7 @@ h3 {
 .footer .footer_top .footer_widget ul li a {
   color: #AAB1B7;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* line 102, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
@@ -3435,7 +3445,7 @@ h3 {
   right: 5px;
   font-size: 14px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* line 151, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
@@ -3443,7 +3453,7 @@ h3 {
   font-size: 14px;
   color: #AAB1B7;
   line-height: 26px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 /* line 159, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_footer.scss */
