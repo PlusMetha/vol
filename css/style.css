@@ -17,41 +17,41 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto auto ;
-  grid-gap: 10px;
+  grid-gap: 25px;
   /* background-color: #2196F3; */
   padding: 10px;
-  margin: 5%;
+  margin: 5%; /*5%*/
 }
 
 .grid-container > div {
   /* background-color: rgba(255, 255, 255, 0.8); */
   text-align: center;
-  padding: 20px 0;
+  padding: 0px 0;
   font-size: 30px;
 }
 
 .carousel-tile{
-  width: 250px;
-  height: 140px;
-  background-color: #333533;
+  width: 267px;
+  height: 158px;
+
   margin: 0px;
-  
+
 }
 
 .carousel-row{
   display: flex;
   justify-content: center;
-
 }
 
 .item {
-  width: 250px;
-  height: 140px;
+  width: 267px; 
+  height: 158px; 
   background-color: #333533;
   position: relative;
   display: block;
   flex: 1 1 0px;
   transition: transform 500ms;
+ 
 }
 .item1 {
   grid-row-start: 1;
