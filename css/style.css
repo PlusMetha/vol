@@ -37,7 +37,12 @@
   margin: 0px;
 
 }
-
+.blogbg {
+  z-index: 0;
+  background-repeat:  repeat;
+  background-attachment: fixed;
+  background-image: url(../img/banner/blog.jpg );
+}
 .carousel-row{
   display: flex;
   justify-content: center;
@@ -3555,7 +3560,7 @@ h3 {
   font-size: 16px;
   margin-bottom: 0;
   font-size: 16px;
-  color: #2a2a2a;
+  color: #d7d7d7,;
 }
 
 /* line 30, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_contact.scss */
@@ -5503,12 +5508,14 @@ h6 {
 /* line 525, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_blog.scss */
 .blog_item {
   margin-bottom: 50px;
+ background-color: #222222;
 }
 
 /* line 529, ../../Arafath/CL/Cl November/227. Health _ Fitness/HTML/scss/_blog.scss */
 .blog_details {
   padding: 30px 0 20px 10px;
-  box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3);
+
+  /* box-shadow: 0px 10px 20px 0px rgba(221, 221, 221, 0.3); */
 }
 
 @media (min-width: 768px) {
